@@ -1,0 +1,9 @@
+<h1>HELLO route ingrid</h1>
+{{outlet}}
+
+{{#each model as |ingrid|}}
+  <h3>{{ingrid.id}}</h3>
+  <p>{{ingrid.timestamp}}</p>
+  <p>By: {{lang.timestamp}}</p>
+
+{{/each}}
