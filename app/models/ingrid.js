@@ -8,5 +8,5 @@ const {
 export default DS.Model.extend({
   timestamp: attr('string'),
   lang: attr('string'),
-
+  result: attr()
 });
