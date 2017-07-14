@@ -15,11 +15,4 @@ export default Route.extend({
 
     }); //name of the model
   }
-<<<<<<< HEAD
-//
-=======
-
-
-
->>>>>>> query
 });
