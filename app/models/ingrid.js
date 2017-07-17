@@ -6,7 +6,6 @@ const {
  } = DS;
 
 export default DS.Model.extend({
-  timestamp: attr('string'),
-  lang: attr('string'),
-  result: attr()
+  result: attr(),
+  userQuery: attr('string', { defaultValue: 'lets go' })
 });

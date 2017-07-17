@@ -1,4 +1,6 @@
 import Ember from 'ember';
+import DS from 'ember-data';
+
 
 const { Route, set } = Ember;
 
@@ -7,9 +9,10 @@ export default Route.extend({
   //   return this.store.findAll('ingrid'); //name of the model
   // }
 
+
   model() { //model hoock
     return this.store.queryRecord('ingrid', {
-      query: "lets go",
+      query: 'lets go',
       lang: "en",
       sessionId: '1234567890'
 

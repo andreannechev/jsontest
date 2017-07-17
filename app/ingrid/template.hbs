@@ -1,4 +1,6 @@
 <h1>HELLO route ingrid</h1>
+{{input type="text" value=newQuery placeholder="Hello"}}
+<button {{action 'setQuery'}} >Submit</button>
 {{outlet}}
 
 
@@ -7,3 +9,4 @@
   <p>By: {{model.lang}}</p> -->
   <h2>Action: {{model.result.action}}</h2>
   <h2>Speech: {{model.result.speech}}</h2>
+  <h2>Query: {{model.userQuery}}</h2>
